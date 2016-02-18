@@ -25,6 +25,7 @@ gem 'commonwealth-vlr-engine', :git => 'https://github.com/boston-library/common
 ```
 Then run the install:
 ```
+$ bundle install
 $ rails generate blacklight:install
 $ rails generate commonwealth_vlr_engine:install
 $ rake db:migrate
